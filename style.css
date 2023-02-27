@@ -1,0 +1,99 @@
+.navbar{
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0,0,0,.3);
+}
+.navbar span{
+    color: crimson;
+    text-shadow:black;
+    
+    
+}
+.navbar li a{
+    color: rgb(250, 245, 245);
+    text-decoration: none;
+}
+.navbar li a:hover{
+    color: darkgreen;
+}
+nav a{
+    text-transform: capitalize;
+    color: white;
+}
+.carousel-caption{
+    width: auto;
+    height: 80px;
+    background-color: rgb(87, 204, 122);
+    opacity: .5;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 4s infinite;
+  }
+  .carousel-caption h2{animation-timing-function: ease;}
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 400px;}
+  }
+  .carsol-img img{
+    height: 80vh;
+  }
+
+main h1{
+   margin-bottom: 50px;
+   display: block;
+   text-align: center;
+   
+   
+}
+.link{
+    text-decoration: none;
+    color:rgb(183, 43, 104);
+    font-size: 20px;
+}
+nav span{
+    
+    font-size: 45px;
+}
+footer section{
+   
+    color: white;
+    background-color: rgb(62, 58, 58);
+}
+footer section a{
+    color: white;
+    text-decoration: none;}
+/* card start */
+.card-group div{
+   margin-right: 15px;
+   box-shadow:0 14px 28px black rgba(0,0,0,0,.25)
+   0 10px 10px rgba(0,0,0,0,.22); ;
+}
+.card-group div:hover{
+    box-shadow: 0 3px 6px black rgba(0,0,0,0,.16)
+    0 3px 6px rgba(0,0,0,0,.23);
+    transform: translate(0px,-8px);
+}
+.card-butn{
+    display: flex;
+    justify-content:space-around;
+
+}
+.card-butn a{
+ 
+ background-color: crimson;
+ transform: scale();
+ border: none;
+border-radius: 10px;
+}
+.card-butn button{
+    width: 150px;
+    background-color: rgb(41, 163, 57);
+    border: none;
+    border-radius: 10px;
+   
+}
+.card-footer ul{
+    list-style: none;
+    display: flex;
+    color: rgb(249, 194, 53);
+}
